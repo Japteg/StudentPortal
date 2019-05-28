@@ -83,11 +83,11 @@ class RegisterController extends Controller
     //     $this->sendEmail($thisUser);
     // }
 
-    public function sendEmail($thisUser){
-        Mail::send(['text'=>'auth.sendOTP'],['otp'=>$thisUser->otp],function($message){
-            $message->to('japteg.2698@gmail.com','to Japteg')->subject('OTP verification');
-            $message->from('japteg.2698@gmail.com','Japteg');
-        });
+    // public function sendEmail($thisUser){
+    //     Mail::send(['text'=>'auth.sendOTP'],['otp'=>$thisUser->otp],function($message){
+    //         $message->to('japteg.2698@gmail.com','to Japteg')->subject('OTP verification');
+    //         $message->from('japteg.2698@gmail.com','Japteg');
+    //     });
         // mail::to($thisUser['email'])->send(new verifyEmail($thisUser));
     }
 
