@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    overflow-y: auto;
+    /*overflow-x: hidden;*/
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  #header {
+    padding-top: 7%;
+    padding-bottom: 2%;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    letter-spacing: .1em;
+    font-family: raleway;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5),3px 3px 4px red,5px 5px 5px rgba(0,0,0,1);
+  }
+  
+  #tagline {
+    text-align: center;
+    color: white;
+    font-family: raleway;
+    font-weight: 400;
+  }
+  
+  #text {
+    font-size: 3em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    letter-spacing: .15em;
+    padding: 7%;
+    text-align: center;
+  }
+  
+  .typewrite {
+    color: white;
+    text-shadow: 2px 2px 1px red,5px 5px 10px rgba(0,0,255,.5);
+    font-style: italic;
+    text-decoration: none;
+  }
+
+  .btncontainer {
+      margin-top: 10em;
+  }
+  
+  div {
+  text-align: center;
+  }
+  
+  
+  .btns {
+    color: white;
+    padding: 1em;
+    font-size: 1.3em;
+    background: rgba(0,0,0,0);
+    border: 2px solid white;
+    font-family: raleway;
+    border-radius: 13%;
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 2em;
+    margin-right: 2em;
+    transition: .3s;
+  }
+  
+  .btns:hover {
+    color: black;
+    background: white;
+    border: 2px solid rgba(0,0,0,0);
+  }
+  
+  .btns:focus, .input:focus {
+    outline:0;
+  }
+  
+  .formContainer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  #login, #signup {
+    display: none;
+  }
+  
+  .formContainer h1 {
+    font-size: 4em;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    font-family: raleway;
+  }
+  
+  .form {
+    width: 40%;
+    padding: 1.2em;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .form .input {
+    display: block;
+    margin: 2em auto;
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.9);
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.3em;
+  }
+  
